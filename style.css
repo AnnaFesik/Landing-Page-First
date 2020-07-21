@@ -1,3 +1,39 @@
 body { 
-    margin: 0;
+    margin: 0; 
+    font-family: 'Rubik'; 'Arial', sans-serif;
+}
+
+.header{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    min-height: auto;
+    background-color: #44cfbd;
+    margin: 0 auto;
+}
+
+.logo {
+    width: 148px;
+    height: 36px;
+    background-color: #b086c9;
+    padding: 10px;
+    flex-grow: 0;
+}
+
+nav {
+    color: #4F5665;
+    background-color: #5dbe50;
+    align-items: baseline;
+    flex-grow: 2;
+}
+
+.menu li {
+    display: inline-block;
+}
+
+.button {
+    background-color: #d1e65f;
+    width: 250px;
+    flex-grow: 1;
+    padding: 10px;
 }
