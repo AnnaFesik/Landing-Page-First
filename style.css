@@ -31,7 +31,7 @@ nav {
     background-color: #5dbe50;
     align-items: baseline;
     flex-grow: 2;
-}
+    }
 
 .menu li {
     display: inline-block;
@@ -46,10 +46,14 @@ nav {
 
 .hero__info {
     display: flex;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 0;
     justify-content: space-between;
     background-color: #FFFFFF;
     box-shadow: 0 42px 1px 2px #f3f7f6;
     border-radius: 10px;
+    position: relative;
 }
 
 .hero__info li {
@@ -65,12 +69,11 @@ nav {
 
 .hero__item-desc {
     margin: auto 0;
-}
-
+    }
 
 .hero__item-desc span {
     display: block;
-}
+    }
 
 .hero__item-number {
     font-weight: bold;
@@ -79,13 +82,29 @@ nav {
 
 .hero__item-text {
     color: #4F5665;
-}
+    }
 
-.hero__vert-line {
-    border-left:2px solid #e8e9ec;
-    max-height: 50%;
-} 
+    .hero__li-1::after {
+        content: '';
+        display: block;
+        width: 2px;
+        height: 80%;
+        background-color: #EEEFF2;
+        position: absolute;
+        bottom: 15%;
+        right: 66%;
+        }
  
+        .hero__li-2::after {
+            content: '';
+            display: block;
+            width: 2px;
+            height: 80%;
+            background-color: #EEEFF2;
+            position: absolute;
+            bottom: 15%;
+            right: 33%;
+            }    
 main {
     padding-top: 150px;
 }

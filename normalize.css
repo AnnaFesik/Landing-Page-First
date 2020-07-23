@@ -1,18 +1,18 @@
-/ Box sizing rules /
+/* Box sizing rules */
 *,
 *::before,
 *::after {
   box-sizing: border-box;
 }
 
-/ Remove default padding /
+/* Remove default padding */
 ul,
 ol {
   padding: 0;
   list-style: none;
 }
 
-/ Remove default margin /
+/* Remove default margin */
 body,
 h1,
 h2,
@@ -30,7 +30,7 @@ dd {
   margin: 0;
 }
 
-/ Set core body defaults /
+/* Set core body defaults */
 body {
   min-height: 100vh;
   scroll-behavior: smooth;
@@ -40,18 +40,18 @@ body {
 	font-family: 'Rubik', 'Arial', sans-serif;
 }
 
-/ A elements that don't have a class get default styles /
+/* A elements that don't have a class get default styles */
 a:not([class]) {
   text-decoration-skip-ink: auto;
 }
 
-/ Make images easier to work with /
+/* Make images easier to work with */
 img {
   max-width: 100%;
   display: block;
 }
 
-/ Inherit fonts for inputs and buttons /
+/* Inherit fonts for inputs and buttons */
 input,
 button,
 textarea,
@@ -59,7 +59,7 @@ select {
   font: inherit;
 }
 
-/ Remove all animations and transitions for people that prefer not to see them /
+/* Remove all animations and transitions for people that prefer not to see them */
 @media (prefers-reduced-motion: reduce) {
   * {
     animation-duration: 0.01ms !important;
